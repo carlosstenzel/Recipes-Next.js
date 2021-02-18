@@ -4,6 +4,6 @@ import { Content } from "./styles";
 export const Search = () => (
   <Content>
     <IconSearch />
-    <input type="text" />
+    <input type="text" placeholder="Search a meal ... " />
   </Content>
 );
