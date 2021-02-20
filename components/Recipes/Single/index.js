@@ -14,13 +14,13 @@ export const Single = ({ recipe }) => {
         </h3>
         <div className="col-12 mt-5">
           <div className="row bg-white">
-            <div className="col-6">
+            <div className="col-12 col-sm-6">
               <Image>
                 <img src={recipe?.strMealThumb} />
               </Image>
             </div>
 
-            <div className="col-6 pt-4">
+            <div className="col-12 col-sm-6 pt-4">
               <Details recipe={recipe} />
               <Ingredients recipe={recipe} />
             </div>

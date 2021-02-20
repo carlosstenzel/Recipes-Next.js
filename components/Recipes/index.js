@@ -26,7 +26,7 @@ export const Recipes = () => {
       <div className="row mt-4">
         {recipes !== null
           ? recipes.map((recipe, index) => (
-              <div key={index} className="col-3">
+              <div key={index} className="col-12 col-sm-6 col-lg-3">
                 <a
                   href={`/recipes/${recipe.idMeal}-${formatStringUrl(
                     recipe.strMeal
