@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const Card = styled.div`
-  width: 145px;
+  width: 100%;
+  max-width: 300px;
   background: #fff;
   flex-grow: 1;
   flex-shrink: 0;
@@ -10,6 +11,7 @@ export const Card = styled.div`
   text-align: center;
   padding: 10px;
   cursor: pointer;
+  margin-bottom: 65px;
   transition: all 1s;
 
   &:hover {
@@ -22,17 +24,28 @@ export const Card = styled.div`
     }
   }
 
+  .image {
+    margin-top: -60px;
+    z-index: 3;
+  }
+
   img {
-    width: 130px;
-    height: 130px;
+    width: 150px;
+    height: 150px;
+
     border: 6px solid #e0e0e0;
     border-radius: 50%;
     transition: all 1s;
   }
 
+  .name {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
   span {
     color: #2f3030;
-    font-size: 1rem;
+    font-size: 1.1rem;
     padding-top: 8px;
     margin-bottom: 8px;
   }
