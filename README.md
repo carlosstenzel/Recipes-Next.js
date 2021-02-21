@@ -5,6 +5,7 @@
 <img src="./.assets/2.png" alt="mobile" width="49%" style="max-width:48%;float: left;" />
 <img src="./.assets/3.png" alt="mobile" width="49%" style="max-width:48%;float: right;" />
 </p>
+<br />
 
 ## Getting Started
 
@@ -23,5 +24,16 @@ yarn dev
 Next.js has support for API Routes, which let you easily create an API endpoint as a Node.js serverless function
 
 ```
+EX:
 http://localhost:3000/api/...
 ```
+
+# Config
+
+File '/services/api'
+
+# URL WEB
+
+https://test-topi-git-master-carlosstenzel.vercel.app/
+
+Deploy with vercel and automatically deploys
