@@ -37,3 +37,13 @@ File '/services/api'
 https://test-topi-git-master-carlosstenzel.vercel.app/
 
 Deploy with vercel and automatically deploys
+
+# Test
+
+```bash
+yarn test
+# and
+yarn coverage
+```
+
+Acess the file -> ROOT_DIR /coverage/lcov-report/index.html in browser
