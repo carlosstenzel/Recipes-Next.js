@@ -11,8 +11,7 @@ const cors = initMiddleware(
 
 export default async (req, res) => {
   await cors(req, res);
-  if (req.method === "GET") {
-    const response = await axios.get(`${Api_themealdb}/categories.php`);
-    res.json(response.data.categories);
-  }
+
+  const response = await axios.get(`${Api_themealdb}/categories.php`);
+  res.json(response.data.categories);
 };

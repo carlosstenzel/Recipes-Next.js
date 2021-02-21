@@ -5,7 +5,6 @@ module.exports = {
   collectCoverage: true,
   collectCoverageFrom: [
     "components/**/*.js",
-    "pages/**/*.js",
     "utils/**/*.js",
     "!**/styles.js",
     "!<rootDir>/components/Base/*",
