@@ -34,7 +34,7 @@ File '/services/api'
 
 # URL WEB
 
-https://test-topi-git-master-carlosstenzel.vercel.app/
+https://recipes-next-js.vercel.app/
 
 Deploy with vercel and automatically deploys
 
