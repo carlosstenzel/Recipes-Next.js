@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://test-topi-git-master-carlosstenzel.vercel.app/api",
+  baseURL: "https://recipes-next-js.vercel.app/api",
 });
 
 export default api;
