@@ -32,6 +32,8 @@ http://localhost:3000/api/...
 
 File '/services/api'
 
+and alter URL API
+
 # URL WEB
 
 https://recipes-next-js.vercel.app/
